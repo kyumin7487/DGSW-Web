@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './style.css';
+import './style.scss';
 
 const Write = () => {
     const apiUrl = process.env.REACT_APP_API_URL || `http://www.batangsoft.com/`;

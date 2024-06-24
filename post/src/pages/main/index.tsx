@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'; // React 및 필요한 훅 import
 import { useNavigate } from 'react-router-dom'; // useNavigate 훅 import
-import './style.css'
+import './style.scss'
 
 interface Post {
     idx: number;

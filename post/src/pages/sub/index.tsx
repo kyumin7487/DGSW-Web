@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; // React 및 필요한 훅 import
 import { useParams, useNavigate } from 'react-router-dom'; // useParams, useNavigate 훅 import
 import Modal from 'react-modal'; // 모달 컴포넌트 import
-import './style.css'; // CSS 파일 import
+import './style.scss'; // CSS 파일 import
 
 interface Data {
     title: string;
