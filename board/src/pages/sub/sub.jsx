@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; // React 및 필요한 훅 import
 import { useParams, useNavigate } from 'react-router-dom'; // useParams, useNavigate 훅 import
 import Modal from 'react-modal'; // 모달 컴포넌트 import
-import './sub.css' // CSS 파일 import
+import './sub.scss' // CSS 파일 import
 
 const Sub = () => {
     const { idx } = useParams(); // URL 파라미터에서 idx 값 가져오기

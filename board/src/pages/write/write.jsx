@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './write.css';
+import './write.scss';
 
 const Write = () => {
     // 환경 변수에서 API URL을 가져오거나 기본값을 설정합니다.

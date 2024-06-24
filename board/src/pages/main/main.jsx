@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'; // React 및 필요한 훅 import
 import { useNavigate } from 'react-router-dom'; // useNavigate 훅 import
-import './main.css'; // CSS 파일 import
+import './main.scss'; // CSS 파일 import
 
 const Main = () => {
     const apiUrl = `http://www.batangsoft.com/`; // API URL 설정
